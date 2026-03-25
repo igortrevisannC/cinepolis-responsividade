@@ -4,10 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     /* Evita que os elementos aumentem de tamanho inesperadamente facilitando o controle da responsividade  */
+    list-style: none;
 }
 
 .cabecalho {
-    background-color: #30182b;
+    background-color: #000000;
     color: white;
     padding: 1.5rem;
     /* poderia ser 24px */
@@ -17,7 +18,8 @@
     justify-content: space-evenly;
     flex-direction: row;
 
-    position: sticky; /* posicionamento do header para sobrepor os outros elementos  */
+    position: sticky;
+    /* posicionamento do header para sobrepor os outros elementos  */
     left: 0;
     top: 0;
     z-index: 999;
@@ -26,20 +28,24 @@
 .div-logo img {
     width: 35%;
 }
+
 /*  */
-.div-button a button{
-    width: 5rem; /* Poderia ser 80px */
-    padding: 0.5rem; /* 8px - preencimento */
-    color: #1a0b2a; 
+.div-button a button {
+    width: 5rem;
+    /* Poderia ser 80px */
+    padding: 0.5rem;
+    /* 8px - preencimento */
+    color: #1a0b2a;
     border: none;
     font-weight: 800;
     border-radius: 15px;
 }
 
-.section-01{
-     padding: 9rem; /*preenchimento interno da section */
+.section-01 {
+    padding: 9rem;
+    /*preenchimento interno da section */
 
-    background-image: url(imagens/deathstranding.jpg) ;
+    background-image: url(imagens/image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,21 +53,69 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem; /* poderiamos usar 32px */
-    flex-wrap: wrap; /* isso significa que as div poderao quebrar de linha, caso necessario */   
+    gap: 2rem;
+    /* poderiamos usar 32px */
+    flex-wrap: wrap;
+    /* isso significa que as div poderao quebrar de linha, caso necessario */
 }
 
-.div01{
-    background-color: #30182b;
-    color: #ff360e; /* cor do texto */
-    text-align: center; /* alinhamento centralizando os textos */
-    font-size: 2rem; /* tamanho da letra dentro da caixa */
-    padding: 1rem; /* preenchimento da caixa */
-    width: 25%; /* largura da caixa em porcentagem */
-    height: 20rem; /* altura da caixa utilizando o REM  */
+.div01 {
+    background-color: rgba(0, 0, 0, 0.747);
+    color: #ff2a00;
+    /* cor do texto */
+    text-align: center;
+    /* alinhamento centralizando os textos */
+    font-size: 2rem;
+    /* tamanho da letra dentro da caixa */
+    padding: 1rem;
+    /* preenchimento da caixa */
+    width: 25%;
+    /* largura da caixa em porcentagem */
+    height: 20rem;
+    /* altura da caixa utilizando o REM  */
     min-width: 299px;
+    border-radius: 15px;
 }
 
-.div02{
+.div02 {
+    width: 25%;
+    height: 20rem;
+    min-width: 299px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(248, 2, 27, 0.582) 0%, rgba(0, 13, 6, 0.5) 50%, rgba(219, 10, 10, 0.418) 100%), url(imagens/spider\ man.gif);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 
+    
 }
+
+.ul-div1 li a {
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    padding: 3px;
+    font-size: 1.4rem;
+}
+
+.ul-div1 li {
+    margin: 5px 5px;
+    /* alterando os quatros lados externos dos elementos, primeiro valor (superior, inferior) e segundo valor ( laterais esquerda e direita)  */
+}
+.fa-square-x-twitter, .fa-instagram{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    gap: 10px;
+}
+
+.fa-square-x-twitter:hover, .fa-instagram:hover{
+    color:red;
+    transition: 0.8s;
+}
+
