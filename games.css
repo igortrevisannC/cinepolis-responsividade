@@ -83,15 +83,28 @@
     min-width: 299px;
     border-radius: 15px;
     background: linear-gradient(90deg, rgba(248, 2, 27, 0.582) 0%, rgba(0, 13, 6, 0.5) 50%, rgba(219, 10, 10, 0.418) 100%), url(imagens/spider\ man.gif);
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 10px;
+    flex-wrap: wrap;
 
-    
 }
+
+.div02 div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.div02 div i {
+    color: antiquewhite;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
 
 .ul-div1 li a {
     text-decoration: none;
@@ -105,17 +118,54 @@
     margin: 5px 5px;
     /* alterando os quatros lados externos dos elementos, primeiro valor (superior, inferior) e segundo valor ( laterais esquerda e direita)  */
 }
-.fa-square-x-twitter, .fa-instagram{
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 1.4rem;
-    display: flex;
-    gap: 10px;
+
+.img-div {
+    padding: 3%;
+    background-image: url(imagens/18e2b4c03f668435146ca8ec75a05489.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.fa-square-x-twitter:hover, .fa-instagram:hover{
-    color:red;
+.section-02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem;
+    background-color: #000000;
+}
+
+.caixa{
+    width: 25%;
+    height: 22rem;
+    background-color: red;
+    min-width: 299px;
+    font-size: 1.2rem;
+    color: #000000;
+    box-shadow: 5px 5px 10px white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.caixa:hover{
+    box-shadow: 8px 8px 15px white;
     transition: 0.8s;
 }
 
+.section-03{
+    width: 25%;
+    height: 20rem;
+    min-width: 299px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.div-03, .div-04{
+    height: 15rem;
+}
