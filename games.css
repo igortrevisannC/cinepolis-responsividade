@@ -5,6 +5,7 @@
     box-sizing: border-box;
     /* Evita que os elementos aumentem de tamanho inesperadamente facilitando o controle da responsividade  */
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cabecalho {
@@ -26,7 +27,7 @@
 }
 
 .div-logo img {
-    width: 35%;
+    width: 25%;
 }
 
 /*  */
@@ -145,27 +146,63 @@
     min-width: 299px;
     font-size: 1.2rem;
     color: #000000;
-    box-shadow: 5px 5px 10px white;
+    box-shadow: 5px 5px 10px red;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .caixa:hover{
-    box-shadow: 8px 8px 15px white;
+    box-shadow: 8px 8px 15px red;
     transition: 0.8s;
 }
 
 .section-03{
-    width: 25%;
-    height: 20rem;
-    min-width: 299px;
-    border-radius: 15px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem;
+    background-color: #000000;
+    flex-wrap:wrap ;
 }
 
 .div-03, .div-04{
     height: 15rem;
+    padding: 1.5rem;
+    text-align: center
+}
+
+.textos{
+    text-align:start ;
+    margin-top: 1rem;
+}
+
+.icons i{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    margin-top: 1.2rem;
+}
+
+.ancora-div04 a button{
+    padding: 0.5rem;
+    background-color: #000000;
+    color: white;
+    font-weight: 600;
+    margin: 1rem 0;
+    border-radius: 10px;
+} 
+
+.texto-div04 p{
+    font-size: 1.4rem;
+    color: white;
+}
+
+.section-04{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem;
+    background-color: #000000;
+    flex-wrap:wrap ;
 }
