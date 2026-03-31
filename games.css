@@ -46,7 +46,7 @@
     padding: 9rem;
     /*preenchimento interno da section */
 
-    background-image: url(imagens/image.png);
+    background-image: url(imagens/image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,7 +83,7 @@
     height: 20rem;
     min-width: 299px;
     border-radius: 15px;
-    background: linear-gradient(90deg, rgba(248, 2, 27, 0.582) 0%, rgba(0, 13, 6, 0.5) 50%, rgba(219, 10, 10, 0.418) 100%), url(imagens/spider\ man.gif);
+    background: linear-gradient(90deg, rgba(248, 2, 27, 0.397) 0%, rgba(0, 13, 6, 0.281) 50%, rgba(219, 10, 10, 0.199) 100%), url(imagens/cinema.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,13 +146,14 @@
     min-width: 299px;
     font-size: 1.2rem;
     color: #000000;
-    box-shadow: 5px 5px 10px red;
+    box-shadow: 3px 3px 10px red;
     border-radius: 10px;
     cursor: pointer;
+    text-align: center;
 }
 
 .caixa:hover{
-    box-shadow: 8px 8px 15px red;
+    box-shadow: 6px 6px 10px red;
     transition: 0.8s;
 }
 
@@ -255,4 +256,31 @@
 
 .div-list ul li{
     margin-bottom: 0.4rem;
+}
+
+.caixa img{
+    width: 100%;
+    height: 50%;
+    border-radius: 6px;
+}
+
+.botoes{
+     width: 5rem;
+    /* Poderia ser 80px */
+    padding: 0.5rem;
+    /* 8px - preencimento */
+    color: #1a0b2a;
+    border: none;
+    font-weight: 800;
+    border-radius: 15px;
+
+}
+
+
+
+
+@media (max-width:600px){
+    .content{
+        flex-direction: column;
+    }
 }
