@@ -42,6 +42,16 @@
     border-radius: 15px;
 }
 
+.whatsapp{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+
+.whatsapp img{
+    width: 50px ;
+}
+
 .section-01 {
     padding: 9rem;
     /*preenchimento interno da section */
@@ -88,14 +98,16 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
 
 }
 
-.div02 div {
-    display: flex;
-    flex-direction: column;
-    margin-right: 30px;
+.div02 p{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
 }
+
 
 .div02 div i {
     color: antiquewhite;
@@ -146,10 +158,10 @@
     min-width: 299px;
     font-size: 1.2rem;
     color: #000000;
-   
     border-radius: 10px;
     cursor: pointer;
     text-align: center;
+    font-weight: 400;
 }
 
 .caixa:hover{
@@ -251,7 +263,7 @@
     margin: 0.5rem auto;
     border: none;
     height: 3px;
-    background-color: white;
+    background-color: red;
 }
 
 .div-list ul li{
@@ -265,7 +277,7 @@
 }
 
 .botoes{
-     padding: 0.5rem;
+     padding: 0.2rem;
     background-color: #000000;
     color: white;
     font-weight: 600;
