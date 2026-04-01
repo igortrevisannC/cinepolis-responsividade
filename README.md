@@ -1,2 +1,1 @@
-# loja de Games
- Loja de games e acessorios
+https://igortrevisannc.github.io/cinepolis-responsividade/cinepolis.html
